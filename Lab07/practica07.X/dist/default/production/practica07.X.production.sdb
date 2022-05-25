@@ -1,0 +1,250 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"5 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\LCD.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"21
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+"30
+[v _send_to_LCD send_to_LCD `(v  1 e 1 0 ]
+"40
+[v _write_string_LCD write_string_LCD `(v  1 e 1 0 ]
+"23 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"60
+[v _get_Num get_Num `(i  1 e 2 0 ]
+"85
+[v _get_Func get_Func `(uc  1 e 1 0 ]
+"97
+[v _disp_Res disp_Res `(v  1 e 1 0 ]
+"119
+[v _disp_Error disp_Error `(v  1 e 1 0 ]
+"5 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\teclado.c
+[v _key_init key_init `(v  1 e 1 0 ]
+"13
+[v _key_scanner key_scanner `(uc  1 e 1 0 ]
+"48
+[v _key_get key_get `(uc  1 e 1 0 ]
+"5 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X/teclado.h
+[v _key key `uc  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f45k50.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"3054
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"3546
+[v _WPUB WPUB `VEuc  1 e 1 @3973 ]
+"3892
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4004
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S84 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4031
+[s S93 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S102 . 1 `S84 1 . 1 0 `S93 1 . 1 0 ]
+[v _LATCbits LATCbits `VES102  1 e 1 @3979 ]
+"4106
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"4849
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S125 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5101
+[s S134 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S141 . 1 `S125 1 . 1 0 `S134 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES141  1 e 1 @3988 ]
+"5249
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"12357
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S27 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13176
+[s S30 . 1 `uc 1 IOCIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S39 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S44 . 1 `S27 1 . 1 0 `S30 1 . 1 0 `S39 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES44  1 e 1 @4081 ]
+"19 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\main.c
+[v _num1 num1 `i  1 e 2 0 ]
+[v _num2 num2 `i  1 e 2 0 ]
+"20
+[v _oper oper `uc  1 e 1 0 ]
+"23
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+} 0
+"5 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\teclado.c
+[v _key_init key_init `(v  1 e 1 0 ]
+{
+"11
+} 0
+"48
+[v _key_get key_get `(uc  1 e 1 0 ]
+{
+"58
+} 0
+"13
+[v _key_scanner key_scanner `(uc  1 e 1 0 ]
+{
+"46
+} 0
+"60 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\main.c
+[v _get_Num get_Num `(i  1 e 2 0 ]
+{
+[v get_Num@ch ch `uc  1 a 1 wreg ]
+"61
+[v get_Num@num num `i  1 a 2 14 ]
+"60
+[v get_Num@ch ch `uc  1 a 1 wreg ]
+[v get_Num@ch ch `uc  1 a 1 13 ]
+"83
+} 0
+"85
+[v _get_Func get_Func `(uc  1 e 1 0 ]
+{
+[v get_Func@chf chf `uc  1 a 1 wreg ]
+[v get_Func@chf chf `uc  1 a 1 wreg ]
+[v get_Func@chf chf `uc  1 a 1 9 ]
+"95
+} 0
+"119
+[v _disp_Error disp_Error `(v  1 e 1 0 ]
+{
+[v disp_Error@numb numb `i  1 p 2 5 ]
+"126
+} 0
+"97
+[v _disp_Res disp_Res `(v  1 e 1 0 ]
+{
+"100
+[v disp_Res@HundrethDigit HundrethDigit `uc  1 a 1 12 ]
+"99
+[v disp_Res@TenthDigit TenthDigit `uc  1 a 1 11 ]
+"98
+[v disp_Res@UnitDigit UnitDigit `uc  1 a 1 10 ]
+"97
+[v disp_Res@numb numb `i  1 p 2 8 ]
+"117
+} 0
+"40 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\LCD.c
+[v _write_string_LCD write_string_LCD `(v  1 e 1 0 ]
+{
+[v write_string_LCD@s s `*.25Cuc  1 p 2 3 ]
+"43
+} 0
+"30
+[v _send_to_LCD send_to_LCD `(v  1 e 1 0 ]
+{
+[v send_to_LCD@xy xy `uc  1 a 1 wreg ]
+[v send_to_LCD@xy xy `uc  1 a 1 wreg ]
+[v send_to_LCD@xy xy `uc  1 a 1 2 ]
+"39
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"5 C:\Users\estef\Documents\Semestre Feb-Jun22\Microcontroladores\Laboratorio\Lab06\practica07.X\LCD.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"21
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+{
+[v LCD_cmd@cx cx `uc  1 a 1 wreg ]
+[v LCD_cmd@cx cx `uc  1 a 1 wreg ]
+[v LCD_cmd@cx cx `uc  1 a 1 0 ]
+"29
+} 0
